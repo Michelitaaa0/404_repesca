@@ -112,3 +112,13 @@ body {
   background-color: var(--accent);
   color: var(--bg);
 }
+@media (max-width: 600px) {
+  .nave {
+    font-size: 3rem;
+  }
+
+  #btnVolver {
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+  }
+}
