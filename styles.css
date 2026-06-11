@@ -43,3 +43,28 @@ body {
   50%  { opacity: 1; }
   100% { opacity: 0.2; }
 }
+.contenedor {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* ---- NAVE ---- */
+
+.nave {
+  font-size: 4rem;
+  animation: flotar 3s ease-in-out infinite;
+  margin-bottom: 1.5rem;
+}
+
+@keyframes flotar {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
